@@ -1,68 +1,38 @@
 <script setup>
-import { onMounted, ref, watch } from 'vue';
-import { loadState, saveState } from '../utils/Store.js';
-import Login from './Login.vue';
 
-const theme = ref(loadState('theme') || 'light')
-
-function toggleTheme() {
-  theme.value = theme.value == 'light' ? 'dark' : 'light'
-}
-
-watch(theme,()=> {
-  document.documentElement.setAttribute('data-bs-theme', theme.value)
-  saveState('theme', theme.value)
-}, {immediate: true})
 
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-md bg-codeworks border-bottom border-vue">
-    <div class="container gap-2">
-      <router-link :to="{ name: 'Home' }" class="d-flex align-items-center text-light">
-        <img class="navbar-brand" alt="logo" src="/img/cw-logo.png" height="45" />
-        <b class="fs-5">Vue Starter</b>
-      </router-link>
-      <!-- collapse button -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="mdi mdi-menu text-light"></span>
-      </button>
-      <!-- collapsing menu -->
-      <div class="collapse navbar-collapse " id="navbar-links">
-        <ul class="navbar-nav">
-          <li>
-            <router-link :to="{ name: 'About' }" class="btn text-green selectable">
-              About
-            </router-link>
-          </li>
-        </ul>
-        <!-- LOGIN COMPONENT HERE -->
-         <div class="ms-auto">
-           <button class="btn text-light" @click="toggleTheme"
-           :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
-           <i v-if="theme == 'dark'" class="mdi mdi-weather-sunny"></i>
-           <i v-if="theme == 'light'" class="mdi mdi-weather-night"></i>
-          </button>
+  <nav class="navbar navbar-expand-md d-flex justify-content-center">
+    <div class="mt-4">
+      <div class="d-flex gap-5 align-items-center">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/5c37a0dbee1759b6c6bbf2c0/1549403353684-VCWXZX51Y53W9VYC2J17/AARF+Logo-WEB+Tagline_Long+%28Location+%2B+Tagline%29+-+White.png?format=1500w"
+          alt="" class="nav-logo">
+        <div class="text-light d-flex gap-3">
+          <span>Adopt</span>
+          <span>Foster</span>
+          <span>Volunteer</span>
+          <span>Resources</span>
+          <span>Giving</span>
+          <span>Events</span>
+          <span>About</span>
+          <span>Contact</span>
+          <span class="border border-light rounded-pill px-2 ms-3">Donate</span>
+          <!-- <button class="btn btn-outline-light p-2 text-light ms-3 rounded-pill">Donate</button> -->
+          <i class="mdi mdi-magnify fs-5 ms-3"></i>
         </div>
-        <Login />
       </div>
     </div>
   </nav>
 </template>
 
 <style lang="scss" scoped>
-a {
-  text-decoration: none;
+.nav-logo {
+  height: 4rem;
 }
 
-.nav-link {
-  text-transform: uppercase;
-}
-
-.navbar-nav .router-link-exact-active {
-  border-bottom: 2px solid var(--bs-success);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-</style>
+// button{
+//   border-radius: ;
+// }</style>
