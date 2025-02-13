@@ -311,12 +311,28 @@
         </div>
       </div>
     </div>
+
     <div class="row justify-content-center mt-5">
       <div class="col-md-9">
-        <div>
+        <div class="mb-5">
           <img
             src="https://images.squarespace-cdn.com/content/v1/5c37a0dbee1759b6c6bbf2c0/1e9477c3-c8a2-4966-9384-d511eabd4628/printed.jpg?format=1500w"
             alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-7">
+        <div class="text-center">
+          <h1 class="test-h1">"AARF has been a tremendous organization to work with as a volunteer. They are responsive,
+            helpful,
+            resourceful, and approachable. Most importantly, they always put the animals' well-being first. I'm so
+            grateful to AARF for giving me an opportunity to help these beautiful creatures."
+          </h1>
+          <div class="mt-4">
+            <p><b>-Heather T.,</b> <em>Foster parent</em></p>
+          </div>
         </div>
       </div>
     </div>
@@ -369,5 +385,9 @@
 
 .kitten-p {
   line-height: 30px;
+}
+
+.test-h1 {
+  line-height: 47px;
 }
 </style>
