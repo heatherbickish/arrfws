@@ -18,6 +18,9 @@
             The Animal Adoption <br> and Rescue Foundation <br> (AARF) exists to <br> improve the lives of <br>cats and
             dogs while <br> strengthening the <br> human-animal bond.
           </h1>
+          <div class="mt-5">
+            <button class="btn bg-light rounded-pill px-4 py-3 fw-bold">LEARN MORE</button>
+          </div>
         </div>
       </div>
     </div>
@@ -26,11 +29,14 @@
 
 <style scoped lang="scss">
 .puppy-img {
-  // border-radius: 50%;
   height: 40rem;
 }
 
 h1 {
   line-height: 50px;
+}
+
+button {
+  color: #e37262;
 }
 </style>
