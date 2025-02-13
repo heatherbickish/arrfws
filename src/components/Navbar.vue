@@ -20,7 +20,6 @@
           <span>About</span>
           <span>Contact</span>
           <span class="border border-light rounded-pill px-2 ms-3">Donate</span>
-          <!-- <button class="btn btn-outline-light p-2 text-light ms-3 rounded-pill">Donate</button> -->
           <i class="mdi mdi-magnify fs-5 ms-3"></i>
         </div>
       </div>
@@ -32,7 +31,4 @@
 .nav-logo {
   height: 4rem;
 }
-
-// button{
-//   border-radius: ;
-// }</style>
+</style>
