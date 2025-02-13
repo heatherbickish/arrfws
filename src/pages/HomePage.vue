@@ -228,6 +228,98 @@
         </div>
       </div>
     </div>
+
+    <!-- SECTION More featured pets -->
+    <div class="row justify-content-center gap-2 mt-5">
+      <div class="col-md-3">
+        <div class="mt-5 text-center">
+          <h5 class="orange">KEILLOR</h5>
+        </div>
+        <div class="mt-5">
+          <img
+            src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="involved-img">
+        </div>
+        <div class="mt-5">
+          <p class="img-p">Keillor is beautiful fluffy copper/black longer hair tabby who purrs loudly at the sight of
+            her person and loves to be pet and doted on. She enjoys looking out the windows at the birds and squirrels
+            and will also watch them on the YouTube cat tv streams. She was initially very shy when she came into foster
+            care but is becoming more confident as each day passes. She loves spending time with her brother Russell and
+            would really love to be adopted as a pair with him. Keillor enjoys playing with her toys, especially her
+            flying feather and crinkle tunnel toys and enjoys napping in the sun. She would make a great addition to the
+            family promising to spoil her and treat her like the princess she is. She has never met a dog but would
+            likely be okay with a very calm one and would be best in a home with kids over 8.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="mt-5 text-center">
+          <h5 class="orange">CAESAR</h5>
+        </div>
+        <div class="mt-5">
+          <img
+            src="https://images.unsplash.com/photo-1491485880348-85d48a9e5312?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="involved-img">
+        </div>
+        <div class="mt-5">
+          <p class="img-p">Caesar is a sweet boy, and although he takes some time to warm up to you, he loves to be by
+            your side. He loves to be pet but will let you know when he's had enough. He is quite playful and would do
+            great in a calm, quiet home. He would do fine with older children as long as they know to give him space and
+            not be too loud. He has not been introduced to other cats or dogs so we don't know how he will react to
+            another pet.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="mt-5 text-center">
+          <h5 class="orange">LOKI</h5>
+        </div>
+        <div class="mt-5">
+          <img
+            src="https://images.unsplash.com/photo-1604916287784-c324202b3205?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="involved-img">
+        </div>
+        <div class="mt-5">
+          <p class="img-p">Loki is an affectionate and fun cat who loves attention and the company of people. He'll
+            gladly follow you around all day and enjoys hanging out in the same room-just not on your lap. He's okay
+            with being picked up for a bit, but what he loves most is being near you, playing chase, and getting head
+            rubs. His favorite spots? Sleeping on a dining chair tucked under the table or keeping watch from the
+            window, observing the world outside. Loki took some time to settle into his new environment, but he's grown
+            bolder every day. He's well-trained, uses the litter box perfectly, and never scratches the furniture. Super
+            inquisitive, Loki wants to explore every nook and cranny-closets, cupboards, even the mantelpiece!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION Puppy hero -->
+  <section class="container-fluid">
+    <div class="row mt-5">
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1593173589854-c9c28824cc89?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="" class="puppy-hero">
+      </div>
+    </div>
+
+    <!-- SECTION Address hero and info -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-8">
+        <div class="text-center orange">
+          <h5>OUR NEW ADDRESS IS 302 THURSTON STREET, WINSTON-DALEM, NC 27103</h5>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-9">
+        <div>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5c37a0dbee1759b6c6bbf2c0/1e9477c3-c8a2-4966-9384-d511eabd4628/printed.jpg?format=1500w"
+            alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
   </section>
 
 </template>
@@ -243,6 +335,13 @@
 
 .involved-img {
   height: 16rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.puppy-hero {
+  height: 75dvh;
   width: 100%;
   object-fit: cover;
   object-position: center;
