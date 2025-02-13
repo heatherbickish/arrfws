@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-md d-flex justify-content-center">
+  <nav class="navbar navbar-expand-md d-flex justify-content-center puppy-bg">
     <div class="mt-4">
       <div class="d-flex gap-5 align-items-center">
         <img
