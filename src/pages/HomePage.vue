@@ -322,6 +322,7 @@
       </div>
     </div>
 
+    <!-- SECTION Testimonial -->
     <div class="row justify-content-center mt-5">
       <div class="col-md-7">
         <div class="text-center">
@@ -338,6 +339,27 @@
     </div>
   </section>
 
+  <!-- SECTION Adoption landing -->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 px-0">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1597595735875-d50b63c3e7b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-6 puppy-bg text-light p-5">
+        <div class="mt-5 ms-5 py-5 px-4">
+          <h2>Adoption Fair Calendar</h2>
+          <h5>ADOPTION FAIRS: Saturday from 11am - 1pm. dogs & cats 11am - 2pm.</h5>
+          <h5>See all available cats and dogs online and fill out an online application</h5>
+          <h5>We will contact you about the next steps</h5>
+          <h5>SEE FULL CALENDAR</h5>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style scoped lang="scss">
