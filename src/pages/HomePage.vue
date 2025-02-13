@@ -145,6 +145,91 @@
     </div>
   </section>
 
+  <!-- SECTION Featured pets -->
+  <section class="container-fluid">
+    <div class="row mt-5 justify-content-center align-items-center">
+      <div class="col-md-3">
+        <div class="mt-5">
+          <h1>Featured Pets</h1>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mt-5">
+          <p class="featured-p fs-5">Finding a friend is easier than you think. All of our adotable animals are
+            superstars. Here are a few examples</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION Featured pics and text -->
+    <div class="row justify-content-center gap-2 mt-5 mb-5">
+      <div class="col-md-3">
+        <div class="mt-5 text-center">
+          <h5 class="orange">LYKA</h5>
+        </div>
+        <div class="mt-5">
+          <img
+            src="https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="involved-img">
+        </div>
+        <div class="mt-5">
+          <p class="img-p">If you're looking for an affectionate, curious, friendly, playful, and smart puppy, look no
+            further than Lyka! She's a friendly, fun-loving girl who is full of energy and curiosity. She loves nothing
+            more than to run around and explore but also enjoys a nice cuddle. Lyka was found by a local truck driver
+            when she was just a wee one and has been fostered by a wonderful AARF volunteer since she was a bottle
+            feeder. She is approximately 6 months old and ready to find her forever home. She is crate trained with
+            potty training in progress. Lyka is going to be a big girl. With instruction, she will make a fantastic pet
+            companion.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="mt-5 text-center">
+          <h5 class="orange">COCO</h5>
+        </div>
+        <div class="mt-5">
+          <img
+            src="https://images.unsplash.com/photo-1579807351146-e6dd49462635?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="involved-img">
+        </div>
+        <div class="mt-5">
+          <p class="img-p">Meet Coco, the 9 month old fun-loving, funny, and friendly pup! This young boy is
+            affectionate and curious. He's always up for a good time. He's a true people-pleaser and will do anything to
+            get a smile out of you. Coco is a ball of energy and playfulness, always ready for a game or an exciting
+            walk. He's an explorer at heart and loves to sniff out new adventures. Coco hasn't had a lot of leash
+            walking but seems to enjoy the ones he has had. He is friendly and social, gets along with other dogs, and
+            appears to be okay with cats (although his playful nature can be scary). He'll need time and patience to
+            continue what his foster has taught him in his short time with her. Coco is a sweet and lovable pooch who is
+            sure to bring joy and laughter into his forever home. Because of his size, professional training is
+            recommended as he is still a puppy. If you're looking for a large, fun-loving, and affectionate companion,
+            Coco is the perfect fit for you!
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="mt-5 text-center">
+          <h5 class="orange">ROGAN</h5>
+        </div>
+        <div class="mt-5">
+          <img
+            src="https://images.unsplash.com/photo-1477973770766-6228305816df?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="involved-img">
+        </div>
+        <div class="mt-5">
+          <p class="img-p">Hey there! My official name is Rogan, but my foster mom calls me 'bud' and 'goofball.' I
+            don't care what you call me as long as you have lots of energy to play with me - especially with my growing
+            ball collection in the yard. Although full of energy and a bit goofy at times, I'm a smart boy too. I've
+            learned 'sit' and I am working on 'wait' around my mealtimes (it's just hard cause food is sooo yummy!) I do
+            have a foster sister with whom I get along great (a 30lb pup) and I even do great when I get boarded for the
+            day. I still get so excited around people, but my foster mom is working with me around my jumping habit, and
+            remember - I'm a smart boy. I'm even obedience trained now! A few of my favorite things are balls, car
+            rides, balls, belly rubs, balls, my human foster sibling (a 13 year old), and, oh! let's not forget balls!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </template>
 
 <style scoped lang="scss">
@@ -172,6 +257,10 @@
 }
 
 .involved-p {
+  line-height: 30px;
+}
+
+.featured-p {
   line-height: 30px;
 }
 
