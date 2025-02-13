@@ -20,7 +20,7 @@
             dogs while <br> strengthening the <br> human-animal bond.
           </h1>
           <div class="mt-5">
-            <button class="btn bg-light rounded-pill px-4 py-3 fw-bold orange">LEARN MORE</button>
+            <button class="btn bg-light rounded-pill px-4 py-3 fw-bold orangecicle">LEARN MORE</button>
           </div>
         </div>
       </div>
@@ -67,6 +67,9 @@
             </p>
           </em>
         </div>
+        <div class="text-center mt-4">
+          <button class="btn rounded-pill bg-orange text-light py-2 px-3">LEARN MORE ABOUT ADOPTING</button>
+        </div>
       </div>
       <div class="col-md-3">
         <div class="mt-5">
@@ -85,6 +88,9 @@
             </p>
           </em>
         </div>
+        <div class="text-center mt-4">
+          <button class="btn rounded-pill bg-orange text-light py-2 px-3">LEARN MORE ABOUT FOSTERING</button>
+        </div>
       </div>
       <div class="col-md-3">
         <div class="mt-5">
@@ -102,6 +108,9 @@
               appreciated. Please check out the many opportunities for you to contribute.
             </p>
           </em>
+        </div>
+        <div class="text-center mt-4">
+          <button class="btn rounded-pill bg-orange text-light py-2 px-3">LEARN MORE ABOUT VOLUNTEERING</button>
         </div>
       </div>
     </div>
