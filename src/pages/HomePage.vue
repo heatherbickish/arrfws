@@ -32,7 +32,7 @@
     <div class="row mt-5 justify-content-center align-items-center">
       <div class="col-md-3">
         <div class="mt-5">
-          <h1>Get Involved</h1>
+          <h1 class="text-dark">Get Involved</h1>
         </div>
       </div>
       <div class="col-md-6">
@@ -150,7 +150,7 @@
     <div class="row mt-5 justify-content-center align-items-center">
       <div class="col-md-3">
         <div class="mt-5">
-          <h1>Featured Pets</h1>
+          <h1 class="text-dark">Featured Pets</h1>
         </div>
       </div>
       <div class="col-md-6">
@@ -326,7 +326,8 @@
     <div class="row justify-content-center mt-5">
       <div class="col-md-7">
         <div class="text-center">
-          <h1 class="test-h1">"AARF has been a tremendous organization to work with as a volunteer. They are responsive,
+          <h1 class="test-h1 text-dark">"AARF has been a tremendous organization to work with as a volunteer. They are
+            responsive,
             helpful,
             resourceful, and approachable. Most importantly, they always put the animals' well-being first. I'm so
             grateful to AARF for giving me an opportunity to help these beautiful creatures."
