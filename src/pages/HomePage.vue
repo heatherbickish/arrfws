@@ -478,7 +478,9 @@
       </div>
     </div>
     <div class="mt-5 text-light text-center">
-      <p>Site design by H Bickish</p>
+      <em>
+        <p>Site design by H Bickish</p>
+      </em>
     </div>
   </section>
 </template>
