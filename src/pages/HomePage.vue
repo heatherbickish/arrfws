@@ -331,7 +331,7 @@
             resourceful, and approachable. Most importantly, they always put the animals' well-being first. I'm so
             grateful to AARF for giving me an opportunity to help these beautiful creatures."
           </h1>
-          <div class="mt-4">
+          <div class="mt-4 mb-5">
             <p><b>-Heather T.,</b> <em>Foster parent</em></p>
           </div>
         </div>
@@ -340,7 +340,7 @@
   </section>
 
   <!-- SECTION Adoption landing -->
-  <section class="container-fluid">
+  <section class="container-fluid mt-5">
     <div class="row">
       <div class="col-md-6 px-0">
         <div>
@@ -358,6 +358,127 @@
           <h5>SEE FULL CALENDAR</h5>
         </div>
       </div>
+    </div>
+    <div class="row mt-5 mb-5">
+      <div class="text-center">
+        <button class="btn bg-orange text-light rounded-pill px-4 py-3 fw-bold">BACK TO TOP</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION Footer -->
+  <section class="container-fluid footer-bg">
+    <div class="row mt-5 justify-content-center gap-5">
+      <div class="col-md-2 text-light">
+        <div>
+          <b>
+            <p>
+              <i class="mdi mdi-copyright"></i>
+              2024 AARF <br> THE ANIMAL ADOPTION AND RESCUE FOUNDATION OF
+              WINSTON-SALEM
+            </p>
+          </b>
+        </div>
+        <div>
+          <p>302 Thurston Street <br> Winston-Salem, NC 27103 <br> (336) 768-PETS (7387)</p>
+        </div>
+        <div>
+          <b>
+            <p>Email AARF</p>
+          </b>
+        </div>
+        <div>
+          <p>AARF House New Hours: <br> Tu/W/Th/F: 12-5 pm <br> Closed Sun. and Mon.</p>
+        </div>
+        <div>
+          <p>Adoption Fair hours for cats is Saturday 11am - 2pm</p>
+        </div>
+        <div>
+          <p>Adoption Fair hours for dogs is Saturday 11 am - 1pm</p>
+        </div>
+
+      </div>
+      <div class="col-md-2 text-light">
+        <div>
+          <h5>ACTION</h5>
+        </div>
+        <div class="mt-4">
+          <p>Adopt</p>
+          <p>Foster</p>
+          <p>Volunteer</p>
+          <p>Contact</p>
+          <p>Donate</p>
+        </div>
+        <div class="mt-5">
+          <h5>APPLICATIONS</h5>
+        </div>
+        <div class="mt-4">
+          <p>Dog Adoption Application</p>
+          <p>Cat Adoption Application</p>
+          <p>Dog Foster Application</p>
+          <p>Cat Foster Application</p>
+          <p>Volunteer Application</p>
+        </div>
+      </div>
+      <div class="col-md-2 text-light">
+        <div>
+          <h5>INFO</h5>
+        </div>
+        <div class="mt-4">
+          <p>About</p>
+          <p>Resources</p>
+          <br>
+          <p>Careers</p>
+          <br>
+          <p>Adoption Fair &</p>
+          <p>Events Calendar</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="mt-4">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5c37a0dbee1759b6c6bbf2c0/6aadbbb7-f636-482a-924e-44a5a7bcce73/hills+dog+food+logo.jpg?format=300w"
+            alt="" class="footer-img">
+        </div>
+      </div>
+      <div class="col-md-2 text-light">
+        <div class="d-flex gap-3">
+          <i class="mdi mdi-facebook fs-3"></i>
+          <i class="mdi mdi-instagram fs-3"></i>
+          <i class="mdi mdi-twitter fs-3"></i>
+        </div>
+        <br>
+        <hr>
+        <div class="mt-5">
+          <h5>CONTACT INFORMATION</h5>
+        </div>
+        <div>
+          <form class="mt-4">
+            <div class="mb-2">
+              <label for="exampleFormControlInput1" class="form-text mb-2 fs-5">First Name <span
+                  class="text-danger fs-5">*</span></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-2">
+              <label for="exampleFormControlInput1" class="form-text mb-2 fs-5">Last Name <span
+                  class="text-danger fs-5">*</span></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-2">
+              <label for="exampleFormControlInput1" class="form-text mb-2 fs-5">Email <span
+                  class="text-danger fs-5">*</span></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="someone@website.com">
+            </div>
+          </form>
+          <div class="mt-3">
+            <p>I want to receive emails at this address</p>
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*4NhFKMxr-qXodjYpxtiE0w.gif" alt="" class="img-fluid">
+            <button class="text-white bg-light mb-3">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 text-light text-center">
+      <p>Site design by H Bickish</p>
     </div>
   </section>
 </template>
@@ -379,10 +500,18 @@
 }
 
 .puppy-hero {
-  height: 75dvh;
+  height: 90dvh;
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.footer-img {
+  height: 9rem;
+}
+
+.form-text {
+  color: #414343;
 }
 
 .dog-h1 {
